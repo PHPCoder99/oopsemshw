@@ -1,4 +1,4 @@
-package ru.gb.learn.game;
+package sem3.hw;
 
 import java.util.List;
 import java.util.Random;
@@ -33,7 +33,7 @@ public abstract class AbstractGame implements Game
         this.wordLength = wordLength;
         this.tryCount = attempts;
         word = generateWord ();
-        System.out.println ("word = " + word);
+        // System.out.println ("word = " + word);
     }
     
     private String generateWord ()
@@ -79,5 +79,9 @@ public abstract class AbstractGame implements Game
     public GameStatus getGameStatus ()
     {
         return status;
+    }
+
+    public String getWord() {
+        return word;
     }
 }

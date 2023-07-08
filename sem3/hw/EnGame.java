@@ -3,13 +3,13 @@ package sem3.hw;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RuGame extends AbstractGame
+public class EnGame extends AbstractGame
 {
     @Override
     public List <String> generateCharList ()
     {
         List <String> strList = new ArrayList <> ();
-        for (int i = 'а'; i <= 'я'; i++)
+        for (int i = 'a'; i <= 'z'; i++)
         {
             strList.add (Character.toString (i));
         }

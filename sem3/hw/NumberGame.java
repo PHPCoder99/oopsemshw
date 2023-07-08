@@ -1,4 +1,4 @@
-package ru.gb.learn.game;
+package sem3.hw;
 
 import java.util.ArrayList;
 import java.util.List;
