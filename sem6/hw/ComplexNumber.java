@@ -1,13 +1,13 @@
 package sem6.hw;
 
-public class Complex {
+public class ComplexNumber {
     private Integer real;
     private Integer complex;
 
-    public Complex() {
+    public ComplexNumber() {
     }
 
-    public Complex(Integer real, Integer complex) {
+    public ComplexNumber(Integer real, Integer complex) {
         this.real = real;
         this.complex = complex;
     }

@@ -1,8 +1,8 @@
 package sem6.hw;
 
 public abstract class AbstractComplexCalculator {
-    public abstract Complex sumc(Complex z1, Complex z2);
-    public abstract Complex subc(Complex z1, Complex z2);
-    public abstract Complex mulc(Complex z1, Complex z2);
-    public abstract Complex divc(Complex z1, Complex z2);
+    public abstract ComplexNumber sumc(ComplexNumber z1, ComplexNumber z2);
+    public abstract ComplexNumber subc(ComplexNumber z1, ComplexNumber z2);
+    public abstract ComplexNumber mulc(ComplexNumber z1, ComplexNumber z2);
+    public abstract ComplexNumber divc(ComplexNumber z1, ComplexNumber z2);
 }

@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
-        Complex z1;
-        Complex z2;
+        ComplexNumber z1;
+        ComplexNumber z2;
         boolean isRunning = true;
         String operation = "";
         ComplexCalculator complexCalculator = new ComplexCalculator();

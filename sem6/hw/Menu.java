@@ -1,7 +1,5 @@
 package sem6.hw;
 
-import sem5.hw.ComplexNumber;
-
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -26,7 +24,7 @@ public class Menu {
         return operation;
     }
 
-    public static Complex inputComplexNumber(){
+    public static ComplexNumber inputComplexNumber(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите целочисленную действительную часть: ");
         String realPart = scanner.nextLine();
@@ -40,6 +38,6 @@ public class Menu {
             System.out.println("Неверный ввод, попробуйте еще раз: ");
             complexPart = scanner.nextLine();
         }
-        return new Complex(Integer.parseInt(realPart), Integer.parseInt(complexPart));
+        return new ComplexNumber(Integer.parseInt(realPart), Integer.parseInt(complexPart));
     }
 }
